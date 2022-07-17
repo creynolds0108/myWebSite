@@ -1,8 +1,14 @@
 body{
-  background-color: lightgray;
+  background-color:#708090;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 li{
   font-style: italic;
   font-size: large;
+}
+img{
+  max-width: 25%;
+  max-height: 25%;
+  border: 5px double #709090;
+  border-radius: 200%;
 }
