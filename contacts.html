@@ -15,5 +15,25 @@
   <p>941.201.7081</p>
   <h3>Email:</h3>
   <p>c.reynolds0108@proton.me</p>
+  <hr>
+  <form action="mailto:c.reynolds0108@proton.me" method="post" enctype="text/plain">
+    <label for="">Your Name:</label>
+    <input type="text" name="name"><br>
+    <label for="checkbox">Do you want to sign up for email notifications?</label>
+    <input type="radio" name="yes-no"> 
+    <label for="">Yes</label>
+    <input type="radio" name="yes-no">
+    <label for="">No</label><br>
+    <label for="">If yes please enter your email address</label>
+    <input type="email" name="email"><br>
+    <label for="">Today's Date</label>
+    <input type="date" name="date"><br>
+    <label for="">Do you want to upload a file?</label>
+    <input type="file" name="file" id=""><br>
+    <label for="">Additional Info:</label><br>
+    <textarea name="Message" id="" cols="30" rows="5" placeholder="Enter Additional Info Here"></textarea><br>
+    <input type="submit" name="submit">
+    <input type="reset" name="reset">
+  </form>
 </body>
 </html>
