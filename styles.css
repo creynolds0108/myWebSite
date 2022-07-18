@@ -11,3 +11,6 @@ img{
   max-height:200px;
   border: 5px double #709090;
 }
+a{
+  margin: auto;
+}
