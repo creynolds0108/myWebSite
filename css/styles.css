@@ -4,14 +4,16 @@ img{
   border: double 2px #2C3333;
 }
 body{
-  background-color: #395B64;
-  color: #E7F6F2;
+  background-color: #D7A86E;
 }
 hr{
-  color: rgba(138, 125, 125, 0.158);
+  color: #E2C275;
   border-top: dotted 5px;
   border-bottom: none;
   border-left: none;
   border-right: none;
   width: 5%;
+}
+h3, h1 {
+  color: #603601;
 }
