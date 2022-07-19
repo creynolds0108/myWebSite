@@ -1,16 +1,17 @@
-body{
-  background-color:#708090;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-li{
-  font-style: italic;
-  font-size: large;
-}
 img{
-  max-width: 200px;
-  max-height:200px;
-  border: 5px double #709090;
+  max-width: 300px;
+  border-radius: 50%;
+  border: double 2px #2C3333;
 }
-a{
-  margin: auto;
+body{
+  background-color: #395B64;
+  color: #E7F6F2;
+}
+hr{
+  color: rgba(138, 125, 125, 0.158);
+  border-top: dotted 5px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 5%;
 }
