@@ -4,6 +4,7 @@ img{
   border: double 2px #2C3333;
 }
 body{
+  display: block;
   background-color: #D7A86E;
 }
 hr{
